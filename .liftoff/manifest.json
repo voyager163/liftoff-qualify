@@ -83,7 +83,7 @@
     {
       "path": ".github/liftoff/release.mjs",
       "ownership": "managed",
-      "sha256": "5e9b63ca8c46c11bc165ad05de4f7e60df9ef2b8966ce0af8e40b682a16972d8",
+      "sha256": "198f6d3db7e17bcf9fc2ea4cb72bac9eda28e0250961a2f4743c37cb804013a0",
       "plugin": "release/gitflow"
     },
     {
@@ -155,7 +155,7 @@
     {
       "path": ".github/workflows/10-build.yml",
       "ownership": "managed",
-      "sha256": "626e988ac41f14326ae987e03dba6db567275c5b286ac6cf36d5afdcf9d7ea72",
+      "sha256": "2228a3fe0fca80a0b25af358216c27eff51a796fff4488a893a25b80c9cf4590",
       "plugin": "release/gitflow"
     },
     {
