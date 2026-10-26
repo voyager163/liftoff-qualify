@@ -74,3 +74,8 @@ reviews new dependencies.
 
 Pull requests target `develop`. See [GOVERNANCE.md](GOVERNANCE.md) for the
 branch model and [REVIEW.md](REVIEW.md) for what reviewers look for.
+
+## Qualification
+
+This repository is disposable. It qualifies Liftoff's generated CI, release
+flow and governance commands on GitHub, and can be deleted afterwards.
