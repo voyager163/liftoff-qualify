@@ -1,0 +1,42 @@
+# Review policy: how much review a change needs, from what it touches.
+#
+# Each changed file takes the highest tier of the rules it matches (or
+# default_tier), and the pull request takes the highest file tier. Changes
+# to workflows, rulesets, CODEOWNERS, this file and AI-review instructions
+# are always high and always need a person, whatever the rules below say.
+# CI reads this file from the base branch. Check a change locally with:
+#   liftoff review classify
+version: 1
+profile: single-maintainer-gitflow
+trusted_authors:
+  - voyager163
+default_tier: medium
+untrusted_author_tier: medium
+rules:
+  - paths:
+      - backend/migrations/**
+      - backend/app/models.py
+    tier: high
+    always_human: true
+    reason: changes the database schema or its migrations
+  - paths:
+      - backend/Dockerfile
+      - compose.yaml
+      - backend/pyproject.toml
+      - backend/uv.lock
+    tier: high
+    reason: changes the shipped image or its dependencies
+  - paths:
+      - backend/app/config.py
+      - backend/app/database.py
+    tier: high
+    reason: changes configuration or database access
+  - paths:
+      - backend/tests/**
+    tier: low
+    reason: tests; coverage gates still apply
+  - paths:
+      - docs/**
+      - "*.md"
+    tier: low
+    reason: documentation

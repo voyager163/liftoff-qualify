@@ -1,0 +1,17 @@
+# Liftoff project configuration: what this project is made of.
+# Change it through Liftoff commands; see https://github.com/voyager163/liftoff
+schema: liftoff.config/v1
+name: liftoff-qualify
+workload: api
+stack: python-fastapi
+pattern: none
+frontend: none
+infrastructure: none
+environments: []
+workflow: manual
+agents: []
+governance: single-maintainer-gitflow
+review:
+  ai: false
+owners:
+  - voyager163

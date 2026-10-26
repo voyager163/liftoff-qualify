@@ -1,0 +1,7 @@
+# Who reviews what. GitHub requests these owners on matching changes.
+* @voyager163
+
+# Changes that can weaken every other check always need an owner.
+/.github/ @voyager163
+/REVIEW.md @voyager163
+/AGENTS.md @voyager163
