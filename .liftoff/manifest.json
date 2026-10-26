@@ -71,19 +71,19 @@
     {
       "path": ".github/liftoff/branch-policy.mjs",
       "ownership": "managed",
-      "sha256": "1d51ab894f46863d4af498260c1a88d2afb9418df251c821435aae41820d75b6",
+      "sha256": "7a9cbce0e6c5501cfc3e27bb8fc537bad796e1eb6d21028ca1e87e09f80f6145",
       "plugin": "governance/single-maintainer-gitflow"
     },
     {
       "path": ".github/liftoff/governance-drift.mjs",
       "ownership": "managed",
-      "sha256": "84763fc5f3ccfe3f49c6dc5e337d2f04dbe9431bc8359b04c73e6599693b796f",
+      "sha256": "4d16f6c07fd9ab72401ce877a698833f5b0bdffb02addb2aaa064905fd08c169",
       "plugin": "governance/single-maintainer-gitflow"
     },
     {
       "path": ".github/liftoff/release.mjs",
       "ownership": "managed",
-      "sha256": "198f6d3db7e17bcf9fc2ea4cb72bac9eda28e0250961a2f4743c37cb804013a0",
+      "sha256": "43c540e0ef160a40068e6bbb5dc56628368f438e2a791895e3898fec2a87b686",
       "plugin": "release/gitflow"
     },
     {
@@ -95,7 +95,7 @@
     {
       "path": ".github/liftoff/review-policy.mjs",
       "ownership": "managed",
-      "sha256": "effdc85174ad74de4785e056b94454690a0fb254daf6752391009eef6ef0f354",
+      "sha256": "c39e62d390c0db05f82524ada5ff9d1355ea02830c2eb0659a25f35882f6bc5d",
       "plugin": "review/layered"
     },
     {
