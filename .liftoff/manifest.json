@@ -113,13 +113,13 @@
     {
       "path": ".github/rulesets/develop.json",
       "ownership": "seeded",
-      "sha256": "ef723c965e23f30dfadddabba27b1163cc701c7ba0d622dc486e2ed9ac23f763",
+      "sha256": "fb6ec1655ca6ddefa82b87b02f23b129bc6abd6d1a3e87cda6ab0d8bd64ab98c",
       "plugin": "governance/single-maintainer-gitflow"
     },
     {
       "path": ".github/rulesets/main.json",
       "ownership": "seeded",
-      "sha256": "646012df10bd83dc47357242e5b27a434dacb80c3166295f1943feb79c0808bd",
+      "sha256": "65319ef1916d6ed3fa7d42a79471d77c4027be4e45239db41a48433114594d05",
       "plugin": "governance/single-maintainer-gitflow"
     },
     {
@@ -269,7 +269,7 @@
     {
       "path": "backend/Dockerfile",
       "ownership": "seeded",
-      "sha256": "af4a977c8b38480daf2d175e4d593e1428493019f54908b90ab27937f6e7e75e",
+      "sha256": "8200584c5d828b881d294a2d02e3658f8cb0ca1316ca76afdb037007d7021831",
       "plugin": "stack/python-fastapi"
     },
     {
