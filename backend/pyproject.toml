@@ -4,21 +4,21 @@ version = "0.1.0"
 description = "liftoff-qualify API"
 requires-python = ">=3.14"
 dependencies = [
-  "alembic>=1.16,<2",
-  "fastapi>=0.120,<1",
-  "psycopg[binary]>=3.2,<4",
-  "pydantic-settings>=2.10,<3",
+  "alembic>=1.20.1,<2",
+  "fastapi>=0.162.0,<1",
+  "psycopg[binary]>=3.3.6,<4",
+  "pydantic-settings>=2.16.2,<3",
   "scalar-fastapi>=1.4,<2",
-  "sqlalchemy>=2.0.40,<3",
+  "sqlalchemy>=2.1.6,<3",
   "uvicorn>=0.37,<1",
 ]
 
 [dependency-groups]
 dev = [
-  "httpx2>=2.13,<3",
-  "pytest>=8.4,<10",
+  "httpx2>=2.16.0,<3",
+  "pytest>=9.2.0,<10",
   "pytest-cov>=7,<9",
-  "ruff>=0.14,<1",
+  "ruff>=0.17.3,<1",
 ]
 
 [tool.uv]
